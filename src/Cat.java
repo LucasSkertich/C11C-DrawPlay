@@ -27,7 +27,7 @@ public class Cat {
 		int x=catX;
 		int y=catY;
 		// Draw the head
-		g2.setColor(Color.black);
+		g2.setColor(Color.white); //Changed cat's color to white
 		g2.fillOval(x, y, 2*HEAD_DIMENSION, 2*HEAD_DIMENSION); //Made Cat's head big bighead cat
 		// Draw the eyes
 		g2.setColor(Color.green);
